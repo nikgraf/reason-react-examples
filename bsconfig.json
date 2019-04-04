@@ -1,0 +1,20 @@
+{
+  "name": "react-template",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["reason-react"],
+  "ppx-flags": [
+    "./node_modules/reason-react/_build/default/jsx_ppx/reactjs_jsx_ppx_v3.exe"
+  ],
+  "refmt": 3
+}
